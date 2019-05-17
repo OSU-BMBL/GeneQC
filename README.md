@@ -33,6 +33,8 @@ module avail
 module load anaconda5/5.0.0-3.6
 ```
 
+# Usage #
+
 ## Installation
 The source code of GeneQC is freely available at: https://github.com/maqin2001/GeneQC
 
