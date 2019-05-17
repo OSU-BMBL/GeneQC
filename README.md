@@ -2,6 +2,9 @@
 
 ## Abstract ##
 
+
+**Citing us:** McDermaid, A., Chen, X., Zhang, Y., Wang, C., Gu, S., Xie, J., & Ma, Q. (2018). A New Machine Learning-Based Framework for Mapping Uncertainty Analysis in RNA-Seq Read Alignment and Gene Expression Estimation. *Frontiers in Genetics*, 9. doi:10.3389/fgene.2018.00313
+
 ## Environment ##
 
 The GeneQC package requires Python 3 to execute, includes the blast+ and SAMtools libraries, GeneQC takes Reference Genome, Annotation file, Read alignment (mapped by HISAT2, compressed to BAM file by SAMtools) as input, you may take the following steps to obtain the preliminary files. The GeneQC will generate feature extraction and modeling results(D-score).
