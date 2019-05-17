@@ -16,11 +16,11 @@ The package contains:
 
 4. A special script "extract_transcript_seq_gff.py" which used to transform the genome sequences to transcript sequences and the corresponding annotation file.
 
-## Hardware Requirement:
+** Hardware Requirement: **
 
 Hardware requirements are based on the size of Reference Genome and Annotation file. High performance cluster preferred.
 
-## Software Requirement:
+** Software Requirement: **
 
 GeneQC package requires Python 3 to execute. We recommended user use anaconda 5 to execute the GeneQC. Most of high performance clusters have already installed the anaconda, so user can load anaconda directly using following code.
 
