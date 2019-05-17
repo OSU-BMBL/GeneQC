@@ -2,30 +2,9 @@
 
 ## Abstract ##
 
-One of the main benefits of using modern RNA-Sequencing (RNA-Seq) technology is
-the more accurate gene expression estimations compared with previous generations
-of expression data, such as the microarray. However, numerous issues can result in
-the possibility that an RNA-Seq read can be mapped to multiple locations on the
-reference genome with the same alignment scores, which occurs in plant, animal, and
-metagenome samples. Such a read is so-called a multiple-mapping read (MMR). The
-impact of these MMRs is reflected in gene expression estimation and all downstream
-analyses, including differential gene expression, functional enrichment, etc. Current
-analysis pipelines lack the tools to effectively test the reliability of gene expression
-estimations, thus are incapable of ensuring the validity of all downstream analyses. Our
-investigation into 95 RNA-Seq datasets from seven plant and animal species (totaling
-1,951 GB) indicates an average of roughly 22% of all reads are MMRs. Here we present a
-machine learning-based tool called GeneQC (Gene expression Quality Control), which
-can accurately estimate the reliability of each gene’s expression level derived from an
-RNA-Seq dataset. The underlying algorithm is designed based on extracted genomic
-and transcriptomic features, which are then combined using elastic-net regularization
-and mixture model fitting to provide a clearer picture of mapping uncertainty for each
-gene. GeneQC allows researchers to determine reliable expression estimations and
-conduct further analysis on the gene expression that is of sufficient quality. This tool also
-enables researchers to investigate continued re-alignment methods to determine more
-accurate gene expression estimates for those with low reliability. Application of GeneQC
-reveals high level of mapping uncertainty in plant samples and limited, severe mapping
-uncertainty in animal samples. GeneQC is freely available at http://bmbl.sdstate.edu/
-GeneQC/home.html.
+One of the main benefits of using modern RNA-Sequencing (RNA-Seq) technology is the more accurate gene expression estimations compared with previous generations of expression data, such as the microarray. However, numerous issues can result in the possibility that an RNA-Seq read can be mapped to multiple locations on the reference genome with the same alignment scores, which occurs in plant, animal, and metagenome samples. Such a read is so-called a multiple-mapping read (MMR). The impact of these MMRs is reflected in gene expression estimation and all downstream analyses, including differential gene expression, functional enrichment, etc. Current analysis pipelines lack the tools to effectively test the reliability of gene expression estimations, thus are incapable of ensuring the validity of all downstream analyses. Our investigation into 95 RNA-Seq datasets from seven plant and animal species (totaling 1,951 GB) indicates an average of roughly 22% of all reads are MMRs. Here we present a machine learning-based tool called GeneQC (Gene expression Quality Control), which can accurately estimate the reliability of each gene’s expression level derived from an RNA-Seq dataset. The underlying algorithm is designed based on extracted genomic and transcriptomic features, which are then combined using elastic-net regularization
+and mixture model fitting to provide a clearer picture of mapping uncertainty for each gene. GeneQC allows researchers to determine reliable expression estimations and conduct further analysis on the gene expression that is of sufficient quality. This tool also
+enables researchers to investigate continued re-alignment methods to determine more accurate gene expression estimates for those with low reliability. Application of GeneQC reveals high level of mapping uncertainty in plant samples and limited, severe mapping uncertainty in animal samples. GeneQC is freely available at http://bmbl.sdstate.edu/GeneQC/home.html.
 
 
 **Citing us:** McDermaid, A., Chen, X., Zhang, Y., Wang, C., Gu, S., Xie, J., & Ma, Q. (2018). A New Machine Learning-Based Framework for Mapping Uncertainty Analysis in RNA-Seq Read Alignment and Gene Expression Estimation. *Frontiers in Genetics*, 9. doi:10.3389/fgene.2018.00313
