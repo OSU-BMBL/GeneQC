@@ -1,4 +1,4 @@
-# GeneQC #
+# GeneQC: Gene expression level Quality Control #
 
 ## Abstract ##
 
