@@ -1,4 +1,8 @@
-# GeneQC Tutorial
+# GeneQC #
+
+## Abstract ##
+
+## Environment ##
 
 The GeneQC package requires Python 3 to execute, includes the blast+ and SAMtools libraries, GeneQC takes Reference Genome, Annotation file, Read alignment (mapped by HISAT2, compressed to BAM file by SAMtools) as input, you may take the following steps to obtain the preliminary files. The GeneQC will generate feature extraction and modeling results(D-score).
 
