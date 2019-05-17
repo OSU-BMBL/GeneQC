@@ -135,3 +135,9 @@ python GeneQC2.py 2 human_transcripts_seq.fa human_transcripts_seq.gff SRR491087
 ```
 
 The outputs will be generated in this folder as well. SRR6029567_out.txt will be feature extraction results. SRR6029567_out.csv will be D-scoure results.
+
+
+## Contact ##
+
+Any questions, problems, bugs are welcome and should be dumped to
+Qin Ma <Qin.Ma@osumc.edu>
